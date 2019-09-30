@@ -33,6 +33,7 @@ public class SceneLoader : MonoBehaviour
     public void LoadingRoom5()
     {
         SceneManager.LoadScene("room5");
+        Debug.Log("test collision");
     }
 
     public void LoadingRoom6()
